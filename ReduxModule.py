@@ -66,7 +66,7 @@ def dark_subtract(filename, master_dark):
     '''
     subtracts the dark from the flat frame
     '''
-    # Your code goes here.
+
     data = fits.getdata(filename)
     header = fits.getheader(filename)
     
